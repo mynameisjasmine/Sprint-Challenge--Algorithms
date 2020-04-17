@@ -7,7 +7,7 @@ class SortingRobot:
         self._item = None       # The item the robot is holding
         self._position = 0      # The list position the robot is at
         self._light = "OFF"     # The state of the robot's light
-        self._time = 0          # A time counter (stretch)
+        self._time = 0          # A time counter (stretch).
 
     def can_move_right(self):
         """
